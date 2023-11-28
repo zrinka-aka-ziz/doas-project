@@ -1,0 +1,22 @@
+-----------------------------------------------------------------------------
+Projekt - Digitalna obrada i analiza slike - akademska godina 2022./2023.
+-----------------------------------------------------------------------------
+
+Tema projekta: verifikacija potpisa
+
+Tim: Ivana Krišto, Matej Lopotar, Lucija Marinčić, Zrinka Pećanić, Ana Vladić
+
+-----------------------------------------------------------------------------
+
+Izvor podataka je ICDAR 2011 dataset (podskup offline Dutch potpisa): http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2011_Signature_Verification_Competition_(SigComp2011) 
+
+Naš skup podataka je modificirana verzija skupa u kojem su ICDAR potpisi grupirani po osobama: https://www.kaggle.com/datasets/eryash15/re-arranged-data
+
+Za potrebe našeg projekta napravili smo: 
+-- skup za učenje:	osobe 1-44
+-- skup za validaciju: 	osobe 45-54
+-- skup za testiranje: 	osobe 55-69
+
+Kod za učitavanje podataka iz skupa nalazi se u prepare_data.py
+
+Sav ostali kod nalazi se u bilježnici doas_projekt_signature_verification.ipynb
